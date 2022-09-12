@@ -15,6 +15,11 @@ h1 {
   align-items: center;
 }
 
+.clock.reverse {
+  background-color: rgba(0,0,0,0.4);
+  color: #fff;
+}
+
 .clock {
   display: flex;
   background-color: #fff;

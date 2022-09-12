@@ -13,10 +13,10 @@ export function Clock({ item }) {
   // }
 
   return (
-      <ClockDesign reverse={true}>
-        <div className="location-display">{item.location}</div>
-        <div className="clock-display">{item.time}</div>
-        {/* <button onClick={handleClick}>Clicky</button> */}
-      </ClockDesign>
+    <ClockDesign>
+      <div className="location-display">{item.location}</div>
+      <div className="clock-display">{item.time}</div>
+      {/* <button onClick={handleClick}>Clicky</button> */}
+    </ClockDesign>
   );
 }
