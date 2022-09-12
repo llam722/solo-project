@@ -19,7 +19,7 @@ function ClockDesign({ children, reverse }) {
 }
 
 ClockDesign.defaultProps = {
-  reverse: true,
+  reverse: false,
 };
 
 export default ClockDesign;
