@@ -2,7 +2,7 @@ import React from 'react';
 import ClockDesign from './shared/ClockDesign.jsx';
 // import { useState } from 'react';
 
-export function Clock({ item }) {
+export function Part({ item }) {
   // const [time, setTime] = useState(item.text);
   // const [location, setLocation] = useState(item.location);
   // const handleClick = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Clock } from './Clock.jsx';
+import { Clock } from './Parts.jsx';
 
 export function PartsList({ clock }) {
   // console.log(clock)
