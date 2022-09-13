@@ -15,12 +15,12 @@ h1 {
   align-items: center;
 }
 
-.clock.reverse {
-  background-color: rgba(0,0,0,0.4);
+.part.reverse {
+  background-color: rgba(0, 0, 0, 0.4);
   color: #fff;
 }
 
-.clock {
+.part {
   display: flex;
   background-color: #fff;
   flex-direction: column;
@@ -29,7 +29,7 @@ h1 {
   margin: 15px 0;
   width: 415px;
 }
-.clock-display {
+.Part-display {
   color: blueviolet;
 }
 

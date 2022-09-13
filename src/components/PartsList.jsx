@@ -1,15 +1,15 @@
 import React from 'react';
-import { Clock } from './Parts.jsx';
+import { Part } from './Parts.jsx';
 
-export function PartsList({ clock }) {
-  // console.log(clock)
-  if (!clock || clock.length === 0) {
-    return <p>No Clocks Added</p>;
+export function PartsList({ Part }) {
+  // console.log(Part)
+  if (!part || part.length === 0) {
+    return <p>No Parts Added</p>;
   }
   return (
     <div className="parts-list">
-      {clock.map((item) => (
-        <Clock key={item.id} item={item} />
+      {part.map((item) => (
+        <Part key={item.id} item={item} />
       ))}
     </div>
   );

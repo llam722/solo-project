@@ -1,13 +1,13 @@
 import React from 'react';
 
-function ClockDesign({ children, reverse }) {
-  return <div className={`clock ${reverse && 'reverse'}`}>{children}</div>;
+function PartDesign({ children, reverse }) {
+  return <div className={`part ${reverse && 'reverse'}`}>{children}</div>;
 
   //***CONDITIONAL STYLING
 
   // return (
   //   <div
-  //     className='clock'
+  //     className='Part'
   //     style={{
   //       backgroundColor: reverse ? 'rgba(0,0,0,0.4)' : '#fff',
   //       color: reverse ? '#fff' : '#000',
@@ -18,8 +18,8 @@ function ClockDesign({ children, reverse }) {
   // );
 }
 
-ClockDesign.defaultProps = {
+PartDesign.defaultProps = {
   reverse: false,
 };
 
-export default ClockDesign;
+export default PartDesign;

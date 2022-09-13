@@ -1,5 +1,5 @@
 import React from 'react';
-import ClockDesign from './shared/ClockDesign.jsx';
+import PartDesign from './shared/PartDesign.jsx';
 // import { useState } from 'react';
 
 export function Part({ item }) {
@@ -13,10 +13,10 @@ export function Part({ item }) {
   // }
 
   return (
-    <ClockDesign>
+    <PartDesign>
       <div className="location-display">{item.location}</div>
-      <div className="clock-display">{item.time}</div>
+      <div className="Part-display">{item.time}</div>
       {/* <button onClick={handleClick}>Clicky</button> */}
-    </ClockDesign>
+    </PartDesign>
   );
 }

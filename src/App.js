@@ -1,11 +1,11 @@
 import React, { Component, useState } from 'react';
 import { Header } from './components/Header.jsx';
-// import { Clock } from './components/Clock.jsx';
-import ClockData from './data/ClockData';
+// import { Part } from './components/Part.jsx';
+import PartData from './data/PartData';
 import { PartsList } from './components/PartsList.jsx';
 
 export function App() {
-  const [clock, setClock] = useState(ClockData);
+  const [part, setPart] = useState(PartData);
 
   return (
     <>
@@ -13,7 +13,7 @@ export function App() {
       <div className="container">
         <h1>Welcome {new Date().toDateString()}</h1>
         <p> The Time the Red Foxes will eat me today</p>
-        <PartsList clock={clock} />
+        <PartsList Part={part} />
       </div>
     </>
   );

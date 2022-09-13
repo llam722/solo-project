@@ -1,4 +1,4 @@
-const ClockData = [
+const PartData = [
   {
     id: 1,
     location: 'Los Angeles',
@@ -16,4 +16,4 @@ const ClockData = [
   },
 ];
 
-export default ClockData
+export default PartData;
