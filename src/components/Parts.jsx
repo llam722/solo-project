@@ -1,9 +1,9 @@
+import { FaTimes } from 'react-icons/fa';
 import React from 'react';
 import PartDesign from './shared/PartDesign.jsx';
-import Price from './Price.jsx';
 // import { useState } from 'react';
 
-export function Part({ item }) {
+export function Part({ item, handleDelete }) {
   // const [time, setTime] = useState(item.text);
   // const [location, setLocation] = useState(item.location);
   // const handleClick = () => {
@@ -16,9 +16,11 @@ export function Part({ item }) {
   return (
     <PartDesign>
       <div className="location-display">{item.location}</div>
-      <div className="Part-display">{item.time}</div>
+      <button onClick={() => handleDelete(item.id)} className="close">
+        <FaTimes color="purple" />
+      </button>
+      <div className="Part-display">{item.value}</div>
       {/* <button onClick={handleClick}>Clicky</button> */}
-      <Price />
     </PartDesign>
   );
 }

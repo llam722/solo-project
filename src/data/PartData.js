@@ -2,17 +2,17 @@ const PartData = [
   {
     id: 1,
     location: 'Los Angeles',
-    time: 'Hot af here',
+    value: 10,
   },
   {
     id: 2,
     location: 'New York',
-    time: 'Just right',
+    value: 9,
   },
   {
     id: 3,
     location: 'Chicago',
-    time: 'Kinda cold',
+    value: 8,
   },
 ];
 
