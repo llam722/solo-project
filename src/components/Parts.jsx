@@ -1,5 +1,6 @@
 import React from 'react';
 import PartDesign from './shared/PartDesign.jsx';
+import Price from './Price.jsx';
 // import { useState } from 'react';
 
 export function Part({ item }) {
@@ -17,6 +18,7 @@ export function Part({ item }) {
       <div className="location-display">{item.location}</div>
       <div className="Part-display">{item.time}</div>
       {/* <button onClick={handleClick}>Clicky</button> */}
+      <Price />
     </PartDesign>
   );
 }

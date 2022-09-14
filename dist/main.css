@@ -1,1 +1,2 @@
-h1{color:blue}
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap);
+body{font-family:"Poppins",sans-serif;background-color:#202142;color:pink;line-height:1.6;margin:15px}h1{display:flex;color:#e6e6fa;justify-content:space-between;align-items:center}.part.reverse{background-color:rgba(0,0,0,.4);color:#fff}.part{display:flex;background-color:#fff;flex-direction:column;border-radius:15px;padding:20px;margin:15px 0;width:415px}.part-display{color:#8a2be2}.location-display{color:#ff4500}

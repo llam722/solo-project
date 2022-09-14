@@ -13,7 +13,7 @@ export function App() {
       <div className="container">
         <h1>Welcome {new Date().toDateString()}</h1>
         <p> The Time the Red Foxes will eat me today</p>
-        <PartsList Part={part} />
+        <PartsList part={part} />
       </div>
     </>
   );
